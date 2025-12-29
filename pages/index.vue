@@ -17,7 +17,7 @@ const order: OrderBody = {
   product_description:"A Nuxt course teaches you to build modern web apps with Nuxt, a powerful, open-source framework on top of Vue.js, covering features like file-based routing, server-side rendering (SSR), static site generation, API routes, auto-imports, and performance optimization for faster, SEO-friendly full-stack applications. Courses guide you from project setup (using Vite) to deploying production-ready sites, simplifying complex tasks for both beginners and experienced developers. ",
   image: "https://nuxt.com/logo.png",
   quantity: 2,
-  price: 50,
+  price: 2.50,
 };
 
 const pending = ref(false);
