@@ -10,6 +10,9 @@ const payWithStripe = async () => {
 		method: 'POST',
 		body: {
 			product_name: 'Nuxt Course',
+			product_description: 'Learn how to integrate Stripe payments with Nuxt 3',
+			image: 'https://nuxt.com/logo.png',
+			quantity: 3,
 			price: 50,
 		},
 	})
