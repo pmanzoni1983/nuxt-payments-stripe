@@ -2,6 +2,10 @@ export default defineNuxtConfig({
 	colorMode: {
 		preference: 'light',
 	},
+	// Nitro preset para generar funciones compatibles con Netlify
+	nitro: {
+		preset: 'netlify'
+	},
 	modules: ['@nuxt/ui'],
 	runtimeConfig: {
  		stripeSecretKey: process.env.NUXT_STRIPE_SECRET_KEY || process.env.STRIPE_SECRET_KEY || '',
